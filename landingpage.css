@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right,  #6DD5FA, #4169E1);
+    color: #fff;
+    padding: 5px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+    border-radius: 50%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right,  #6DD5FA, #4169E1);
+    color: #fff;
+    padding: 2px 0;
+    text-align: left;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-content form {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-content input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.hero-content button {
+    background-color: #ff5e5e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 35%;
+    text-align: right;
+    
+
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logos img {
+    width: 100px;
+    margin-left : 34px;
+    margin-right: 120px;
+    mix-blend-mode: multiply;
+    
+}
+.logo img{
+   width: 30%;
+   display: flex;
+   padding-left: 1px;
+   margin-bottom: 9px;
+}
+.one{
+    background: linear-gradient(to right,  #6DD5FA, #4169E1);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:18px;
+    border-radius: 46%;
+}
+.two{
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
+.three{
+    margin-bottom: 1%;
+
+}
